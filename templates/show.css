@@ -1,0 +1,305 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing:border-box;
+}
+/* 
+body{
+  height: 100vh;
+  display: flex;
+  padding: 100px 0;
+  background-image: linear-gradient(rgb(238, 96, 195), #c33);
+} */
+body {
+  margin: 0;
+  background: #020202;
+}
+
+#i1{
+  position: absolute;
+  top: 150px;
+  left: 750px;
+  width: 100px;
+  height: 90px;
+  animation: heartbeat 1s infinite;
+  margin:0 auto;
+}
+#i2{
+  position: absolute;
+  top: 75px;
+  left: 865px;
+  width: 100px;
+  height: 90px;
+  animation: heartbeat 1s infinite;
+  margin:0 auto
+}
+#i3{
+  position: absolute;
+  top: 75px;
+  left: 980px;
+  width: 100px;
+  height: 90px;
+  animation: heartbeat 1s infinite;
+  margin:0 auto
+}
+#i4{
+  position: absolute;
+  top: 125px;
+  left: 1095px;
+  width: 100px;
+  height: 90px;
+  animation: heartbeat 1s infinite;
+  margin:0 auto
+}
+#i5{
+  position: absolute;
+  top: 240px;
+  left: 1145px;
+  width: 100px;
+  height: 90px;
+  animation: heartbeat 1s infinite;
+  margin:0 auto
+}
+#i6{
+  position: absolute;
+  top: 355px;
+  left: 1145px;
+  width: 100px;
+  height: 90px;
+  animation: heartbeat 1s infinite;
+  margin:0 auto
+}
+#i7{
+  position: absolute;
+  top: 470px;
+  left: 1095px;
+  width: 100px;
+  height: 90px;
+  animation: heartbeat 1s infinite;
+  margin:0 auto
+}
+#i8{
+  position: absolute;
+  top: 520px;
+  left: 980px;
+  width: 100px;
+  height: 90px;
+  animation: heartbeat 1s infinite;
+  margin:0 auto
+}
+#i9{
+  position: absolute;
+  top: 575px;
+  left: 865px;
+  width: 100px;
+  height: 90px;
+  animation: heartbeat 1s infinite;
+  margin:0 auto
+}
+#i10{
+  position: absolute;
+  top: 645px;
+  left: 750px;
+  width: 100px;
+  height: 90px;
+  animation: heartbeat 1s infinite;
+  margin:0 auto
+}
+#i11{
+  position: absolute;
+  top: 575px;
+  left: 635px;
+  width: 100px;
+  height: 90px;
+  animation: heartbeat 1s infinite;
+  margin:0 auto
+}
+#i12{
+  position: absolute;
+  top: 520px;
+  left: 520px;
+  width: 100px;
+  height: 90px;
+  animation: heartbeat 1s infinite;
+  margin:0 auto
+}
+#i13{
+  position: absolute;
+  top: 470px;
+  left: 405px;
+  width: 100px;
+  height: 90px;
+  animation: heartbeat 1s infinite;
+  margin:0 auto
+}
+#i14{
+  position: absolute;
+  top: 355px;
+  left: 355px;
+  width: 100px;
+  height: 90px;
+  animation: heartbeat 1s infinite;
+  margin:0 auto
+}
+#i15{
+  position: absolute;
+  top: 240px;
+  left: 355px;
+  width: 100px;
+  height: 90px;
+  animation: heartbeat 1s infinite;
+  margin:0 auto
+}
+#i16{
+  position: absolute;
+  top: 125px;
+  left: 405px;
+  width: 100px;
+  height: 90px;
+  animation: heartbeat 1s infinite;
+  margin:0 auto
+}
+#i17{
+  position: absolute;
+  top: 75px;
+  left: 520px;
+  width: 100px;
+  height: 90px;
+  animation: heartbeat 1s infinite;
+  margin:0 auto
+}
+#i18{
+  position: absolute;
+  top: 75px;
+  left: 635px;
+  width: 100px;
+  height: 90px;
+  animation: heartbeat 1s infinite;
+  margin:0 auto
+}
+#i19{
+  position: absolute;
+  top: 240px;
+  left: 540px;
+  width: 100px;
+  height: 90px;
+  animation: shake 0.5s infinite;
+  margin:0 auto
+}
+#i20{
+  position: absolute;
+  top: 475px;
+  left: 750px;
+  width: 100px;
+  height: 90px;
+  animation: shake 0.5s infinite;
+  margin:0 auto
+}
+#i21{
+  position: absolute;
+  top: 240px;
+  left: 960px;
+  width: 100px;
+  height: 90px;
+  animation: shake 0.5s infinite;
+  margin:0 auto
+}
+
+#i23{
+  position: absolute;
+  bottom: 75px;
+  left: 50px;
+  width: 100px;
+  height: 90px;
+  scale: 2;
+  margin:0;
+}#i24{
+  position: absolute;
+  bottom: 75px;
+  right: 50px;
+  width: 100px;
+  height: 90px;
+  scale: 2;
+  transform: scaleX(-1);
+  margin:0;
+}
+
+.audio{
+  position: absolute;
+  top: 360px;
+  left: 630px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing:border-box;
+  scale: 0.75;
+}
+h2{
+  position: absolute;
+  background-color: aquamarine;
+  top: 360px;
+  left: 700px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  overflow: hidden;
+  border-radius: 20px;
+  padding: 10px 30px;
+}
+#i22{
+  position: absolute;
+  top: 270px;
+  left: 750px;
+  width: 100px;
+  height: 90px;
+  margin:0 auto;
+}
+
+canvas{display:block}
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}
+
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+

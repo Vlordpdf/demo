@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="templates/login.css">
+</head>
+<body> 
+    <h1>Welcome to Vinh's website</h1><br>
+    <h2>LOGIN</h2>
+
+    <div class="container" id="par">
+        <i class="f-solid"></i>
+            <form action="#" method="POST" enctype="multipart/form-data">
+                <label style="font-weight: bold;" for="">Your name:</label>
+                <input type="text" name="uname" placeholder="     VD: Phan Gia Vinh"></input>
+                <br>
+                <br>
+                <label style="font-weight: bold;" for="">Your birthday:</label>
+                <input type="text" name="password" placeholder="     VD: 12072007"></input>
+                <br>
+                <br>
+                <a href="show.html">
+                <button type="button"><p style="color:white;">Đăng Nhập</p></button>
+                </a>
+            </form>
+    </div>        
+    <!-- {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for m in messages %}
+                <p style="position: relative; top: 115px;">{{m}}</p>
+            {% endfor %} 
+        {% endif %} 
+    {% endwith %}
+    {% endblock %} -->
+</body>
+</html>
